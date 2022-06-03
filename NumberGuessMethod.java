@@ -5,7 +5,7 @@ public class NumberGuessMethod {
 
 	public static void main(String[] args) {
 		// コンピュータの答えを取得
-		int comAnser = getComAnswer();
+		int comAnswer = getComAnswer();
 
 		// 正解するまで何度でも繰り返す
 		while (true) {
@@ -14,7 +14,7 @@ public class NumberGuessMethod {
 			int userGuess = getUserGuess();
 
 			// 正解/不正解のチェック
-			boolean judge = isJudgeAnswer(comAnser, userGuess);
+			boolean judge = isJudgeAnswer(comAnswer, userGuess);
 
 			// 正解の場合
 			if (judge) {
