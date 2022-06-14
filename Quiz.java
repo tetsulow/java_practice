@@ -1,7 +1,7 @@
 public class Quiz {
   public static void main(String[] args){
-    System.out.println("\n■猫カフェ発祥はどこの国？");
-    System.out.println("\n1: 米国 2: 台湾 3: 日本");
+    System.out.println("\n■トランプのJは何を表しているでしょう？");
+    System.out.println("\n1: 王子 2: 召使い 3: 貧乏人");
     System.out.print("\n\n正解を入力＞");
     java.util.Scanner sc = new java.util.Scanner(System.in);
     int d = sc.nextInt();
