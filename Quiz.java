@@ -1,8 +1,8 @@
 public class Quiz {
   public static void main(String[] args){
-    System.out.println("\n■猫カフェ発祥はどこの国？");
-    System.out.println("\n1: 米国 2: 台湾 3: 日本");
-    System.out.print("\n\n正解を入力＞");
+    System.out.println("■猫カフェ発祥はどこの国？");
+    System.out.println("1: 米国 2: 台湾 3: 日本");
+    System.out.print("正解を入力＞");
     java.util.Scanner sc = new java.util.Scanner(System.in);
     int d = sc.nextInt();
 
