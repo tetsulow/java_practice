@@ -8,14 +8,14 @@ public class Quiz {
 
     if(d==1){
     System.out.println("\n\n不正解！");
-    System.out.println("正解は2の台湾です。");
+    System.out.println("正解は2の召使いです。");
     }
     else if(d==2){
-    System.out.println("\n\n正解！ 1998年台北でオープンした「猫花園」が猫カフェ発祥の地");
+    System.out.println("\n\n正解！ トランプのJ（ジャック）は、\n「宮廷に仕える男の召使い」を指しています。");
     }
     else if(d==3){
     System.out.println("\n\n不正解！");
-    System.out.println("正解は2の台湾です。");
+    System.out.println("正解は2の召使いです。");
     }
     else {
     System.out.println("\n\n1～3の番号を入力して下さい。");
