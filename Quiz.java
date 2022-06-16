@@ -7,7 +7,7 @@ public class Quiz {
     int d = sc.nextInt();
 
     if(d==1){
-    System.out.println("\n\n不正解！");
+    System.out.println("\n\n不正解！！");
     System.out.println("正解は2の召使いです。");
     }
     else if(d==2){
